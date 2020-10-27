@@ -21,3 +21,11 @@ html {
       background-repeat: no-repeat;
     
   }
+/* Media Query: Tablet or Smaller */
+
+  @media screen and (max-width: 1000px) {
+    .container {
+        background-position: center center;
+        background-size: cover;
+    }
+  }
